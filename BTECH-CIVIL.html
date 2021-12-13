@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title >BTECH-CIVIL Department </title>
+	<link rel="stylesheet" type="text/css" href="BTECH-CIVIL.css">
+</head>
+<body>
+	<div id = "div1" class="heading">
+		<span id="span1"> NATIONAL INSTITUTE OF TECHNOLOGY </span>
+		 <img src="nit.png" style="background-color:white;" height="150" align="centre"> </</span>
+		 <span id="span2"> राष्ट्रीय प्रौद्योगिकी संस्थान <br>
+		  <span align : right> जमशेदपुर    </span> </span> <br> JAMSHEDPUR
+	</div>
+    <h1  id="course"> BTECH-CIVIL  </h1>
+	<h2 align="left" id="h21" > Select Faculty from dropdown </h2>
+
+	<form id = "f1" method="POST" action="mailto:billionaresourabh@gmail.com" enctype="text/plain" onsubmit="saveData()">
+		<span id="a">
+		<select class="form-control" id="s1" name="faculty_select" size="10"  onchange="updateSub(this.id)" >
+			<option value="none"> None </option>
+			<option value="Dr. Akhileshwar Kumar Singh"> Dr. Akhileshwar Kumar Singh </option>
+			<option value="Prof. Anil Kumar Choudhary"> Prof. Anil Kumar Choudhary </option>
+			<option value="Prof. Arvind Kumar Lal Srivastava"> Prof. A.K.L Srivastava </option>
+			<option value="Dr. Abdhesh Kumar Sinha"> Dr. Abdhesh Kumar Sinha </option>
+			<option value="Dr. Brajkishor Prasad"> Dr. Brajkishor Prasad </option>
+			<option value="Dr. Chintalacheruvu Madhusudana Rao"> Dr. C M Rao </option>
+			<option value="Dr. Prahlad Prasad "> Dr. Prahlad Prasad </option>
+			<option value="Dr. Rakesh Pratap Singh"> Dr. Rakesh Pratap Singh </option>
+		</select>
+	</span>
+		<span id="c"> <h4> Semester 3rd </h4>
+		  <input type="checkbox" id="sem3s1" name="Engineering Mathematics-III" value="CE1301 " onclick="updateSub(this.id)" >
+		  <label for="sem3s1"> Engineering Mathematics-III </label><br>
+		  <input type="checkbox" id="sem3s2" name="Survey-I " value="CE1302" onclick="updateSub(this.id)">
+		  <label for="sem3s2"> Survey-I </label><br>
+		  <input type="checkbox" id="sem3s3" name="Strength of Materials" value="CE1303" onclick="updateSub(this.id)">
+		  <label for="sem3s3"> Strength of Materials </label><br>
+		  <input type="checkbox" id="sem3s4" name="Building Materials and Construction" value="CE1304" onclick="updateSub(this.id)">
+		  <label for="sem3s4"> Building Materials and Construction</label><br>
+		  <input type="checkbox" id="sem3s5" name="Engineering Geology & Seismology" value="CE1305" onclick="updateSub(this.id)">
+		  <label for="sem3s5"> Engineering Geology & Seismology</label><br>
+		  <input type="checkbox" id="sem3s6" name="Fluid Mechanics-I " value="CE1306" onclick="updateSub(this.id)">
+		  <label for="sem3s6"> Fluid Mechanics-I  </label><br>
+		   <input type="checkbox" id="sem3s7" name="Building Materials Lab " value="CE1307" onclick="updateSub(this.id)">
+		  <label for="sem3s7"> Building Materials Lab  </label><br>
+		   <input type="checkbox" id="sem3s8" name="Building Planning and Drawing" value="CE1308" onclick="updateSub(this.id)">
+		  <label for="sem3s8">Building Planning and Drawing </label><br>
+
+	  </span>
+
+
+      <span id="b"> <h4> Semester 5th </h4>
+		  <input type="checkbox" id="sem5s1" name="Structural Analysis – II" value="CE1501" onclick="updateSub(this.id)" >
+		  <label for="sem5s1"> Structural Analysis – II</label><br>
+		  <input type="checkbox" id="sem5s2" name="Geotechnical Engineering – II " value="CE1502" onclick="updateSub(this.id)">
+		  <label for="sem5s2"> Geotechnical Engineering – II </label><br>
+		  <input type="checkbox" id="sem5s3" name="Water Resources Engineering" value="CE1503" onclick="updateSub(this.id)">
+		  <label for="sem5s3">Water Resources Engineering </label><br>
+		  <input type="checkbox" id="sem5s4" name="Design of Steel Structures " value="CE1504" onclick="updateSub(this.id)">
+		  <label for="sem5s4"> Design of Steel Structures  </label><br>
+		  <input type="checkbox" id="sem5s5" name="Environmental Engineering-I " value="CE1505" onclick="updateSub(this.id)">
+		  <label for="sem5s5"> Environmental Engineering-I  </label><br>
+		  <input type="checkbox" id="sem5s6" name="Geotechnical Engineering – I Lab" value="CE1506" onclick="updateSub(this.id)">
+		  <label for="sem5s6"> Geotechnical Engineering – I Lab </label><br>
+		  <input type="checkbox" id="sem5s7" name="Detailing of structures " value="CE1507" onclick="updateSub(this.id)">
+		  <label for="sem5s7"> Detailing of structures </label><br>
+		  <input type="checkbox" id="sem5s8" name="Environmental Engineering Lab " value="CE1508" onclick="updateSub(this.id)">
+		  <label for="sem5s8"> Environmental Engineering Lab </label><br>
+	  </span>
+
+	  <span id="d"> <h4> Semester 7th </h4>
+		<input type="checkbox" id="sem7s1" name="Structural Dynamics " value="CE1701" onclick="updateSub(this.id)" >
+		  <label for="sem7s1"> Structural Dynamics </label><br>
+		  <input type="checkbox" id="sem7s2" name="Irrigation Engineering" value="CE1702" onclick="updateSub(this.id)">
+		  <label for="sem7s2"> Irrigation Engineering </label><br>
+		  <input type="checkbox" id="sem7s3" name="Transportation Engineering-II " value="CE1703" onclick="updateSub(this.id)">
+		  <label for="sem7s3"> Transportation Engineering-II  </label><br>
+		  <input type="checkbox" id="sem7s4" name="Open Elective-I " value="CE17XX" onclick="updateSub(this.id)">
+		  <label for="sem7s4"> Open Elective-I  </label><br>
+		  <input type="checkbox" id="sem7s5" name="Professional Elective - II" value="CE17XX" onclick="updateSub(this.id)">
+		  <label for="sem7s5"> Professional Elective - II </label><br>
+		  <input type="checkbox" id="sem7s6" name="Projects & Industrial Training  " value="CE1704" onclick="updateSub(this.id)">
+		  <label for="sem7s6"> Projects & Industrial Training  </label><br>
+		  <input type="checkbox" id="sem7s7" name="Computational Method in CivilEngineering" value="CE1705" onclick="updateSub(this.id)">
+		  <label for="sem7s7">Computational Method in CE"</label><br>
+
+
+	  </span>
+
+      <br>
+	   <button type="submit"  id="b1" > Submit </button>
+
+
+	  <span id="e"> <h4> Semester 4th </h4>
+		<input type="checkbox" id="sem4s1" name="Concrete Technology" value="CE1401"  onclick="updateSub(this.id)">
+		  <label for="sem4s1"> Concrete Technology </label><br>
+		  <input type="checkbox" id="sem4s2" name="Survey-II " value="CE1402" onclick="updateSub(this.id)">
+		  <label for="sem4s2"> Survey-II </label><br>
+		  <input type="checkbox" id="sem4s3" name="Structural Analysis-I" value="CE1403" onclick="updateSub(this.id)">
+		  <label for="sem4s3"> Structural Analysis-I </label><br>
+		  <input type="checkbox" id="sem4s4" name="Fluid Mechanics-II  " value="CE1404" onclick="updateSub(this.id)">
+		  <label for="sem4s4"> Fluid Mechanics-II  </label><br>
+		  <input type="checkbox" id="sem4s5" name="Geotechnical Engineering-I " value="CE1405" onclick="updateSub(this.id)">
+		  <label for="sem4s5"> Geotechnical Engineering-I  </label><br>
+		  <input type="checkbox" id="sem4s6" name="Design of Concrete Structures-I" value="CE1406" onclick="updateSub(this.id)">
+		  <label for="sem4s6"> Design of Concrete Structures-I </label><br>
+		  <input type="checkbox" id="sem4s7" name="Concrete Lab" value="CE1407" onclick="updateSub(this.id)">
+		  <label for="sem4s7">Concrete Lab</label><br>
+		   <input type="checkbox" id="sem4s8" name="Survey Field Work" value="CE1408" onclick="updateSub(this.id)">
+		  <label for="sem4s7">Survey Field Work</label><br>
+		  <br>
+	  </span>
+
+	   <span id="f"> <h4> Semester 6th </h4>
+		<input type="checkbox" id="sem6s1" name="Design of Concrete Structure-II " value="CE1601" onclick="updateSub(this.id)" >
+		  <label for="sem6s1"> Design of Concrete Structure-II  </label><br>
+		  <input type="checkbox" id="sem6s2" name="Transportation Engineering-I" value="CE1602" onclick="updateSub(this.id)">
+		  <label for="sem6s2">Transportation Engineering-I  </label><br>
+		  <input type="checkbox" id="sem6s3" name="Environmental Engineering-II  " value="CE1603" onclick="updateSub(this.id)">
+		  <label for="sem6s3"> Environmental Engineering-II   </label><br>
+		  <input type="checkbox" id="sem6s4" name="Estimating & Costing & Valuation" value="CE1604" onclick="updateSub(this.id)">
+		  <label for="sem6s4">Estimating & Costing & Valuation </label><br>
+		  <input type="checkbox" id="sem6s5" name="Professional Elective-I" value="CE1605" onclick="updateSub(this.id)">
+		  <label for="sem6s5"> Professional Elective-I </label><br>
+		  <input type="checkbox" id="sem6s6" name="Geotechnical Engineering – II Lab" value="CE1606" onclick="updateSub(this.id)">
+		  <label for="sem6s6"> Geotechnical Engineering – II Lab  </label><br>
+		  <input type="checkbox" id="sem6s7" name="CAD LAB." value="CE1607" onclick="updateSub(this.id)">
+		  <label for="sem6s7"> CAD LAB. </label><br>
+		  <input type="checkbox" id="sem6s8" name="Transportation Engineering Lab" value="CE1608" onclick="updateSub(this.id)">
+		  <label for="sem6s7"> Transportation Engineering Lab </label><br>
+		  <br>
+	  </span>
+
+	  <span id="g"> <h4> Semester 8th </h4>
+		<input type="checkbox" id="sem8s1" name="Prestress Concrete Design " value="CE1801" onclick="updateSub(this.id)" >
+		  <label for="sem8s1"> Prestress Concrete Design  </label><br>
+		  <input type="checkbox" id="sem8s2" name=" Civil Construction, Planning M" value="CE1802" onclick="updateSub(this.id)" >
+		  <label for="sem8s1"> Civil Construction, P.M </label><br>
+		  <input type="checkbox" id="sem8s3" name="Open Elective - II" value="CE1803" onclick="updateSub(this.id)" >
+		  <label for="sem8s1"> Open Elective - 2</label><br>
+		  <input type="checkbox" id="sem8s4" name="Professional Elective – III  " value="CE1804" onclick="updateSub(this.id)" >
+		  <label for="sem8s1">Professional Elective – III  </label><br>
+		  <input type="checkbox" id="sem8s4" name="Professional Elective – IV " value="CE1805" onclick="updateSub(this.id)" >
+		  <label for="sem8s1"> Professional Elective – IV </label><br>
+		  <input type="checkbox" id="sem8s5" name="Projects and Seminar  " value="CE1806" onclick="updateSub(this.id)" >
+		  <label for="sem8s1"> Projects and Seminar  </label><br>
+
+	  </span>
+
+
+
+	</form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="BTECH-CIVIL.js"></script>
+</body>
+
+
+</html>

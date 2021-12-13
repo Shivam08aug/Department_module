@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title >BTECH-EE Department </title>
+	<link rel="stylesheet" type="text/css" href="BTECH-ELEC.ENGIN.css">
+</head>
+<body>
+	<div id = "div1" class="heading">
+		<span id="span1"> NATIONAL INSTITUTE OF TECHNOLOGY </span>
+		 <img src="nit.png" style="background-color:white;" height="150" align="centre"> </</span>
+		 <span id="span2"> राष्ट्रीय प्रौद्योगिकी संस्थान <br>
+		  <span align : right> जमशेदपुर    </span> </span> <br> JAMSHEDPUR
+	</div>
+    <h1  id="course"> BTECH-EE </h1>
+	<h2 align="left" id="h21" > Select Faculty from dropdown </h2>
+
+	<form id = "f1" method="POST" action="mailto:billionaresourabh@gmail.com" enctype="text/plain" onsubmit="saveData()">
+		<span id="a">
+		<select class="form-control" id="s1" name="faculty_select" size="10"  onchange="updateSub(this.id)" >
+			<option value="none"> None </option>
+			<option value="Prof. Arun Kumar Singh"> Prof. Arun Kumar Singh </option>
+			<option value="Prof. Niranjan Kumar">Prof. Niranjan Kumar</option>
+			<option value="Prof. Rabindra Nath Mahanty"> Prof. Rabindra Nath Mahanty </option>
+			<option value="Dr. Krishna Bihari Yadav"> Dr. Krishna Bihari Yadav </option>
+			<option value="Dr. Kumari Namrata">Dr. Kumari Namrata </option>
+			<option value="Dr. Madhu Singh"> Dr. Madhu Singh </option>
+			<option value="Dr. Ananyo Bhattacharya "> Dr. Ananyo Bhattacharya </option>
+			<option value="Dr. Jitendra Kumar"> Dr. Jitendra Kumar </option>
+		</select>
+	</span>
+		<span id="c"> <h4> Semester 1st </h4>
+		  <input type="checkbox" id="sem1s1" name="Introduction to soft skills" value="HS1301" onclick="updateSub(this.id)" >
+		  <label for="sem1s1"> Introduction to soft skills </label><br>
+		  <input type="checkbox" id="sem1s2" name="Engineering Mathematics-III" value="MA1301" onclick="updateSub(this.id)">
+		  <label for="sem1s2"> Engineering Mathematics-III</label><br>
+		  <input type="checkbox" id="sem1s3" name="Digital System Design" value="CS1301" onclick="updateSub(this.id)">
+		  <label for="sem1s3"> Digital System Design </label><br>
+		  <input type="checkbox" id="sem1s4" name="Design and analysis of algorithm" value="CS1302" onclick="updateSub(this.id)">
+		  <label for="sem1s4"> Design and analysis of algorithm</label><br>
+		  <input type="checkbox" id="sem1s5" name="Discrete Maths" value="CS1303" onclick="updateSub(this.id)">
+		  <label for="sem1s5"> Discrete Maths</label><br>
+		  <input type="checkbox" id="sem1s6" name="Design and analysis of algorithm Lab" value="CS1304" onclick="updateSub(this.id)">
+		  <label for="sem1s6"> Design and analysis of algorithm Lab </label><br>
+		   <input type="checkbox" id="sem1s6" name="computing lab" value="CS1305" onclick="updateSub(this.id)">
+		  <label for="sem1s6"> Computing Lab </label><br>
+		   <input type="checkbox" id="sem1s6" name="Digital System Design Lab" value="CS1306" onclick="updateSub(this.id)">
+		  <label for="sem1s6"> Digital System Design Lab </label><br>
+
+	  </span>
+
+
+      <span id="b"> <h4> Semester 3rd </h4>
+		  <input type="checkbox" id="sem3s1" name="Computer Graphics" value="CS1501" onclick="updateSub(this.id)" >
+		  <label for="sem3s1"> Computer Graphics</label><br>
+		  <input type="checkbox" id="sem3s2" name="Computer  Networks" value="CS1502" onclick="updateSub(this.id)">
+		  <label for="sem3s2"> Computer  Networks</label><br>
+		  <input type="checkbox" id="sem3s3" name="sc" value="CS1503" onclick="updateSub(this.id)">
+		  <label for="sem3s3">Soft computing </label><br>
+		  <input type="checkbox" id="sem3s4" name="Soft computing" value="CS1504" onclick="updateSub(this.id)">
+		  <label for="sem3s4"> Software Engineering </label><br>
+		  <input type="checkbox" id="sem3s5" name="Professional Elective - I" value="CS1505" onclick="updateSub(this.id)">
+		  <label for="sem3s5"> Professional Elective - I </label><br>
+		  <input type="checkbox" id="sem3s6" name="Computer Graphics Lab" value="CS1506" onclick="updateSub(this.id)">
+		  <label for="sem3s6"> Computer Graphics Lab </label><br>
+		  <input type="checkbox" id="sem3s7" name="Soft Computing lab" value="CS1507" onclick="updateSub(this.id)">
+		  <label for="sem3s7"> Soft Computing lab</label><br>
+		  <input type="checkbox" id="sem3s8" name="Software Engineering  lab" value="CS1508" onclick="updateSub(this.id)">
+		  <label for="sem3s8"> Software Engineering  lab</label><br>
+		  <input type="checkbox" id="sem3s7" name="Team Project" value="CS1509" onclick="updateSub(this.id)">
+		  <label for="sem3s9"> Team Project </label><br>
+
+	  </span>
+
+	  <span id="d"> <h4> Semester 5th </h4>
+		<input type="checkbox" id="sem5s1" name="Organizational behaviour" value="HS1701" onclick="updateSub(this.id)" >
+		  <label for="sem5s1"> Organizational behaviour  </label><br>
+		  <input type="checkbox" id="sem5s2" name="Industrial Economics" value="HS1702" onclick="updateSub(this.id)">
+		  <label for="sem5s2"> Industrial Economics </label><br>
+		  <input type="checkbox" id="sem5s3" name="Artificial Intelligence" value="CS1701" onclick="updateSub(this.id)">
+		  <label for="sem5s3"> Artificial Intelligence </label><br>
+		  <input type="checkbox" id="sem5s4" name="Professional Elective - III" value="CS1702" onclick="updateSub(this.id)">
+		  <label for="sem5s4"> Professional Elective - III </label><br>
+		  <input type="checkbox" id="sem5s5" name="Open Elective - II" value="CS1703" onclick="updateSub(this.id)">
+		  <label for="sem5s5"> Open Elective - II </label><br>
+		  <input type="checkbox" id="sem5s6" name="Comprehensive Viva and Seminar " value="CS1704" onclick="updateSub(this.id)">
+		  <label for="sem5s6"> Comprehensive Viva and Seminar </label><br>
+		  <input type="checkbox" id="sem5s7" name="Open elective-II lab" value="CS1705" onclick="updateSub(this.id)">
+		  <label for="sem5s7"> Open elective-II lab</label><br>
+		  <input type="checkbox" id="sem5s8" name="Major Project - II" value="CS1706" onclick="updateSub(this.id)">
+		  <label for="sem5s8"> Major Project - II </label><br>
+
+	  </span>
+
+      <br>
+	   <button type="submit"  id="b1" > Submit </button>
+
+
+	  <span id="e"> <h4> Semester 2nd </h4>
+		<input type="checkbox" id="sem2s1" name="Database Management System" value="CS1401"  onclick="updateSub(this.id)">
+		  <label for="sem2s1"> Database Management System </label><br>
+		  <input type="checkbox" id="sem2s2" name="Theory of computation" value="CS1402" onclick="updateSub(this.id)">
+		  <label for="sem2s2"> Theory of computation</label><br>
+		  <input type="checkbox" id="sem2s3" name="Microprocessor and microcontroller" value="CS1403" onclick="updateSub(this.id)">
+		  <label for="sem2s3"> Microprocessor and microcontroller </label><br>
+		  <input type="checkbox" id="sem2s4" name="Operating System " value="CS1404" onclick="updateSub(this.id)">
+		  <label for="sem2s4"> Operating System </label><br>
+		  <input type="checkbox" id="sem2s5" name="Computer Organizational Architecture" value="CS1405" onclick="updateSub(this.id)">
+		  <label for="sem2s5"> Computer Organizational Architecture </label><br>
+		  <input type="checkbox" id="sem2s6" name="dbms lab" value="CS1406" onclick="updateSub(this.id)">
+		  <label for="sem2s6"> Dbms Lab </label><br>
+		  <input type="checkbox" id="sem2s7" name="Microprocessor and microcontroller lab" value="CS1407" onclick="updateSub(this.id)">
+		  <label for="sem2s7">Microprocessor and microcontroller lab</label><br>
+		   <input type="checkbox" id="sem2s8" name="os lab" value="CS1408" onclick="updateSub(this.id)">
+		  <label for="sem2s7">OS lab</label><br>
+		  <br>
+	  </span>
+
+	   <span id="f"> <h4> Semester 4th </h4>
+		<input type="checkbox" id="sem4s1" name="Object Oriented System and Design" value="CS1601" onclick="updateSub(this.id)" >
+		  <label for="sem4s1"> Object Oriented System and Design </label><br>
+		  <input type="checkbox" id="sem4s2" name="High Performance computing" value="CS1602" onclick="updateSub(this.id)">
+		  <label for="sem4s2"> High Performance computing  </label><br>
+		  <input type="checkbox" id="sem4s3" name="Compiler Design " value="CS1603" onclick="updateSub(this.id)">
+		  <label for="sem4s3"> Compiler Design  </label><br>
+		  <input type="checkbox" id="sem4s4" name="Professional Elective-2" value="CS1604" onclick="updateSub(this.id)">
+		  <label for="sem4s4">Professional Elective-2 </label><br>
+		  <input type="checkbox" id="sem4s5" name="Open Elective-1" value="CS1605" onclick="updateSub(this.id)">
+		  <label for="sem4s5"> Open Elective-1 </label><br>
+		  <input type="checkbox" id="sem4s6" name="Compiler Design Lab " value="CS1606" onclick="updateSub(this.id)">
+		  <label for="sem4s6"> Compiler Design Lab  </label><br>
+		  <input type="checkbox" id="sem4s7" name="Minor Project" value="CS1607" onclick="updateSub(this.id)">
+		  <label for="sem4s7"> Minor Project </label><br>
+		  <input type="checkbox" id="sem4s8" name="Industrial Training" value="CS1608" onclick="updateSub(this.id)">
+		  <label for="sem4s7"> Industrial Training </label><br>
+		  <br>
+	  </span>
+
+	  <span id="g"> <h4> Semester 6th </h4>
+		<input type="checkbox" id="sem6s1" name="Management Information Syste" value="CS1801" onclick="updateSub(this.id)" >
+		  <label for="sem6s1"> Management Information System </label><br>
+		  <input type="checkbox" id="sem6s2" name=" Professional Elective - 4" value="CS1802" onclick="updateSub(this.id)" >
+		  <label for="sem6s1"> Professional Elective - 4 </label><br>
+		  <input type="checkbox" id="sem6s3" name="Open Elective - 3" value="CS1803" onclick="updateSub(this.id)" >
+		  <label for="sem6s1"> Open Elective - 3</label><br>
+		  <input type="checkbox" id="sem6s4" name="Open Elective - 3 lab " value="CS1804" onclick="updateSub(this.id)" >
+		  <label for="sem6s1"> Open Elective - 3 lab </label><br>
+		  <input type="checkbox" id="sem6s4" name="Major Project- 2" value="CS1805" onclick="updateSub(this.id)" >
+		  <label for="sem6s1"> Major Project - 2</label><br>
+
+	  </span>
+
+	   <span id="h"> <h4> Semester 7th </h4>
+		<input type="checkbox" id="sem7s1" name="Mobile &Wireless" value="EE1701" onclick="updateSub(this.id)" >
+		  <label for="sem7s1"> Mobile &Wireless </label><br>
+		  <input type="checkbox" id="sem7s2" name="Elective-2 " value="EE1702" onclick="updateSub(this.id)">
+		  <label for="sem7s2"> Elective-2   </label><br>
+		  <input type="checkbox" id="sem7s3" name="Elective-3 " value="EE1703" onclick="updateSub(this.id)">
+		  <label for="sem7s3">Elective-3 </label><br>
+		  <input type="checkbox" id="sem7s4" name="Principles of Management" value="EE1704" onclick="updateSub(this.id)">
+		  <label for="sem7s4">Principles of Management</label><br>
+		  <input type="checkbox" id="sem7s5" name="Industrial Training Viva-Voce" value="EE1705" onclick="updateSub(this.id)">
+		  <label for="sem7s5"> Industrial Training Viva-Voce </label><br>
+		  <input type="checkbox" id="sem7s6" name="Minor Project " value="EE1706" onclick="updateSub(this.id)">
+		  <label for="sem7s6"> Minor Project  </label><br>
+	  </span>
+
+	  <span id="f"> <h4> Semester 8th </h4>
+		<input type="checkbox" id="sem8s1" name="Optical Communications" value="EE1801" onclick="updateSub(this.id)" >
+		  <label for="sem8s1"> Optical Communications </label><br>
+		  <input type="checkbox" id="sem8s2" name="Open Elective" value="EE1802" onclick="updateSub(this.id)">
+		  <label for="sem8s2">Open Elective  </label><br>
+		  <input type="checkbox" id="sem8s3" name="Elective-4 " value="EE1803" onclick="updateSub(this.id)">
+		  <label for="sem8s3">Elective-4  </label><br>
+		  <input type="checkbox" id="sem8s4" name="Comprehensive Viva Voce " value="EE1804" onclick="updateSub(this.id)">
+		  <label for="sem8s4">Comprehensive Viva Voce  </label><br>
+		  <input type="checkbox" id="sem8s5" name="Major Project " value="EE1805" onclick="updateSub(this.id)">
+		  <label for="sem8s5"> Major Project  </label><br>
+		</span>
+
+
+
+	</form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="BTECH-ELEC.ENGIN.js"></script>
+</body>
+
+
+</html>
